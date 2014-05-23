@@ -43,7 +43,7 @@ Now, to connect to your machine, you have 2 options:
 
     Open a browser, and type the url:
 
-    [http://localhost:8080]
+    (http://localhost:8080)[http://localhost:8080]
 
 And continue customizing your installation, adding modules and courses. 
 

@@ -43,8 +43,27 @@ Now, to connect to your machine, you have 2 options:
 
     Open a browser, and type the url:
 
-    (http://localhost:8080)[http://localhost:8080]
+    (localhost:8080)[http://localhost:8080]
 
 And continue customizing your installation, adding modules and courses. 
 
 Let us know your experience, or [open an issue](https://github.com/juanantoniofm/accesible-moodle/issues) if you find any problems.
+
+## Post-Installation
+
+Once you get into the web interface, you will have to perform the initial configuration of the site.
+
+- Click the button "XXXXX"
+
+- select the box "Unattended" (if you don't do it, you will have to click "Next" a few times while the moodle installer does it's things)
+
+- You will reach the "Setup Administration Account". Enter the details that you want, and REMEMBER them. Once you are done with the details, go down and click "Update Profile". The system will try to log you in. The default user and  Password will still be "admin" "admin".
+
+
+## Adding your modules, and extending your installation
+
+Now that you have your installation ready, you can continue your way. Use the [Official moodle Documentation](http://docs.moodle.org/27/en/Main_page).
+
+    #TODO: Add information about the guides developed in the project.
+
+

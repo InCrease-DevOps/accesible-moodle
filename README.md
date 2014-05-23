@@ -14,11 +14,11 @@ It is based on virtual box, using Vagrant and python fabric to automaticly insta
 
 In the first stage, untill the full installer is needed, you will need a couple of things installed on your computer:
 
-- Vagrant 
+- [Vagrant ](http://www.vagrantup.com/)
 
-- VirtualBox 4.1 or superior
+- [VirtualBox 4.1 or superior](https://www.virtualbox.org/wiki/Downloads)
 
-- Python 2.6 or Superior
+- [Python 2.6 or Superior](https://www.python.org/download/)
 
 Then you will have to [download this repo](https://github.com/juanantoniofm/accesible-moodle/archive/master.zip), unzip it in a folder.
 Open a terminal in that folder, and type:
@@ -43,7 +43,7 @@ Now, to connect to your machine, you have 2 options:
 
     Open a browser, and type the url:
 
-        [http://localhost:8080]
+        [http://localhost:8080]()
 
 And continue customizing your installation, adding modules and courses. 
 

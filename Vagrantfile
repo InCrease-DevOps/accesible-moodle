@@ -121,6 +121,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #   chef.validation_client_name = "ORGNAME-validator"
  config.vm.provision :fabric do |fabric|
     fabric.fabfile_path = "./fabfile.py"
-    fabric.tasks = ["check_system","install_prerreq" ]
+    fabric.tasks = ["check_system","install_prerreq","pre_configure_moodle","install_moodle","post_configure_moodle" ]
   end
 end

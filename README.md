@@ -12,7 +12,7 @@ It is based on virtual box, using Vagrant and python fabric to automaticly insta
 
 ## Installation
 
-In the first stage, untill the full installer is needed, you will need a couple of things installed on your computer:
+In the first stage, untill the full installer is ready, you will need a couple of things installed on your computer:
 
 - [Vagrant ](http://www.vagrantup.com/)
 
@@ -26,9 +26,8 @@ Open a terminal in that folder, and type:
     vagrant up
 
 It will download and install the virtual machine. Note the details on the screen, as this will serve you later to connect to your machine.
-
-    vagrant provision
-
+You will have to pay a little bit of attention, and accept "Y" some questions that the machine will ask you. 
+It will ask also for the password of the database. REMMEMBER it, or note it somewhere.
 And the machine will be configured with moodle and its plugins.
 
 Now, to connect to your machine, you have 2 options:
@@ -53,12 +52,13 @@ Let us know your experience, or [open an issue](https://github.com/juanantoniofm
 
 Once you get into the web interface, you will have to perform the initial configuration of the site.
 
-- Click the button "XXXXX"
+- Accept the license (only if you want)
 
-- select the box "Unattended" (if you don't do it, you will have to click "Next" a few times while the moodle installer does it's things)
+- select the box "Unattended operation" (if you don't do it, you will have to click "Next" a few times while the moodle installer does it's things)
 
-- You will reach the "Setup Administration Account". Enter the details that you want, and REMEMBER them. Once you are done with the details, go down and click "Update Profile". The system will try to log you in. The default user and  Password will still be "admin" "admin".
+- You will reach the "Setup Administration Account". Enter the details that you want (don't use "Admin"), and REMEMBER them. Once you are done with the details, go down and click "Update Profile". The system will try to log you in. The default user and  Password will still be "admin" "admin".
 
+- Then, the "New Settings" menu will appear. Here you will have to configure your install with your details.
 
 ## Adding your modules, and extending your installation
 

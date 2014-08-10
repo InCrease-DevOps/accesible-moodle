@@ -12,6 +12,14 @@ It is based on virtual box, using Vagrant and python fabric to automaticly insta
 
 ## Installation
 
+### Simple Install
+
+There is a package available for download, outside of this repo. URL will be here soon.
+
+### Manual Install on Windows 
+
+So far, only windows 64 bit is supported. If you need a 32bit version, just let me know opening an issue on github.com
+
 In the first stage, untill the full installer is ready, you will need a couple of things installed on your computer:
 
 - [Vagrant ](http://www.vagrantup.com/)
@@ -19,6 +27,8 @@ In the first stage, untill the full installer is ready, you will need a couple o
 - [VirtualBox 4.1 or superior](https://www.virtualbox.org/wiki/Downloads)
 
 - [Python 2.6 or Superior](https://www.python.org/download/)
+
+- [PyCrypto for windows](http://www.voidspace.org.uk/python/modules.shtml) Carefully choose the proper version (latest python 2 for your platform)
 
 Then you will have to [download this repo](https://github.com/juanantoniofm/accesible-moodle/archive/master.zip), unzip it in a folder.
 Open a terminal in that folder, and type:
@@ -50,6 +60,7 @@ Let us know your experience, or [open an issue](https://github.com/juanantoniofm
 
 ## Post-Installation
 
+Either after the simple install or the manual one, you will end up with an url. Open it on your browser.
 Once you get into the web interface, you will have to perform the initial configuration of the site.
 
 - Accept the license (only if you want)
